@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+		 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>pl.edu.pollub</groupId>
+    <artifactId>agreggate-example</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+
+    <modules>
+        <module>shared-kernel</module>
+        <module>app-monolith</module>
+        <module>event-store</module>
+        <module>adapter-commons</module>
+        <module>client-services-model</module>
+        <module>client-services-adapters</module>
+        <module>client-services-view</module>
+        <module>roulette-game-model</module>
+        <module>roulette-game-adapters</module>
+        <module>roulette-game-view</module>
+    </modules>
+
+</project>
+
